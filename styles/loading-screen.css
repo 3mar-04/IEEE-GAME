@@ -1,0 +1,148 @@
+/* logo*/
+.logo h1 {
+  animation: loading-left 0.4s linear;
+}
+@keyframes loading-left {
+  0% {
+    opacity: 0%;
+    transform: translateX(-3rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(0rem);
+  }
+}
+
+nav ul {
+  animation: loading-bottom 0.8s linear;
+}
+
+@keyframes loading-bottom {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 0%;
+    transform: translateY(1rem);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateY(0rem);
+  }
+}
+
+nav button,
+.coin {
+  animation: loading-top-button 1.6s linear;
+}
+
+@keyframes loading-top-button {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 0%;
+    transform: translateX(2rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(0rem);
+  }
+}
+
+/* options */
+.options h1 {
+  animation: loading-top 0.6s linear;
+}
+@keyframes loading-top {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 0%;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0rem);
+  }
+}
+
+.options h2 {
+  animation: loading-top-2 1s linear;
+}
+@keyframes loading-top-2 {
+  0% {
+    opacity: 0%;
+  }
+
+  60% {
+    opacity: 0%;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0rem);
+  }
+}
+
+.options h3 {
+  animation: loading-top-3 1.4s linear;
+}
+
+@keyframes loading-top-3 {
+  0% {
+    opacity: 0%;
+  }
+
+  70% {
+    opacity: 0%;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0rem);
+  }
+}
+
+.options button {
+  animation: loading-top-4 1.7s linear;
+}
+
+@keyframes loading-top-4 {
+  0% {
+    opacity: 0%;
+  }
+
+  75% {
+    opacity: 0%;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0rem);
+  }
+}
+
+.scroll,
+.mario-animation {
+  animation: Animation-load 2s linear;
+}
+
+@keyframes Animation-load {
+  0% {
+    opacity: 0%;
+  }
+
+  60% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
