@@ -4,8 +4,9 @@
     --clr-red: #dc2626;
     --clr-red-dark:#940b0bc7 ;
     --clr-silver:#64748b ;
-    --clr-silver-opacity:#64748bbc ;
+    --clr-silver-opacity:#64748be6 ;
     --clr-dark-silver:#1f2937 ;
+    --clr-dark-silver-opacity: #2c333d5e;
     --clr-blue: #3b82f6;
     --clr-light : #fffafa ;
 }
@@ -37,7 +38,6 @@ svg {
 
 button{
     display: inline-block;
-    padding: 0%;
     border: none;
     background:none;
     cursor: pointer;

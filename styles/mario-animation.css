@@ -10,7 +10,7 @@
   height: 50px;
   position: relative;
   top: 12rem;
-  left: 1rem;
+  left: 5rem;
   mask:linear-gradient(90deg ,transparent , white 25% , white 75% , transparent );
 }
 
@@ -20,7 +20,7 @@
     height: 160px;
     position: relative;
     top: 12rem;
-    left: 1rem;
+    left: 5rem;
 }
 
 .scroll ul li img{

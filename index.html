@@ -11,7 +11,7 @@
     <title>Mario in Jordan</title>
   </head>
   <body>
-    <header>
+    <header class="head-before" id="header">
       <div class="logo">
         <h1>Mario in Jordan</h1>
         <img
@@ -23,7 +23,6 @@
       <nav>
         <ul>
           <li><a href="./index.html">Home</a></li>
-          <li><a href="./index.html">About Game</a></li>
           <li><a href="">Explore</a></li>
           <li><a href="">InterActive</a></li>
         </ul>
@@ -40,11 +39,85 @@
       </nav>
     </header>
     <main>
-      <div class="options">
+      <div class="main-btn-before" id="main-btn-before">
+        <div class="line"></div>
+        <div class="right-options">
+          <ul>
+            <li>
+              <div class="title">
+                <button id="mario-option-btn">∨</button>
+                <p>Why Mario In Jordan ?</p>
+              </div>
+              <div class="explain" id="mario-option-explain">
+                <p>
+                  This game takes you on an interactive journey to explore
+                  Jordan's famous and unknown landmarks.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="title">
+                <button id="Aim-option-btn">∨</button>
+                <p>The Aim of this game ?</p>
+              </div>
+              <div class="explain" id="Aim-option-explain">
+                <p>
+                  Visit different locations in Jordan, complete unique
+                  challenges associated with each location, earn points and
+                  unlock new levels.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="title">
+                <button id="About-option-btn">∨</button>
+                <p>About this Game ?</p>
+              </div>
+              <div class="explain" id="About-option-explain">
+                <p>
+                  An interactive game that aims to promote tourism in Jordan
+                  through a new and fun experience that combines adventure and
+                  exploration. The game takes you on a virtual journey to
+                  explore the most prominent tourist attractions and distinctive
+                  historical and cultural places in Jordan.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="title">
+                <button id="Future-option-btn">∨</button>
+                <p>Our Future ?</p>
+              </div>
+              <div class="explain" id="Future-option-explain">
+                <p>
+                  Our future goal is to cover all the famous and unknown
+                  historical landmarks of Jordan such as Petra and the Dead Sea,
+                  and the civilized ones such as hotels, hospitals, government
+                  and sports centers.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="title">
+                <button id="Goal-option-btn">∨</button>
+                <p>Our Goal ?</p>
+              </div>
+              <div class="explain" id="Goal-option-explain">
+                <p>
+                  Increasing and supporting domestic and foreign tourism and
+                  strengthening the community's awareness of all historical and
+                  urban landmarks within Jordan in an entertaining manner.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="options" id="options_target">
         <h1>Mario in Jordan</h1>
         <h2>Discover Jordan With Mario's <br />Adventures.</h2>
         <h3>Unlock levels for Mario Points</h3>
-        <button class="Start">START NOW</button>
+        <button class="Start" id="About-game-btn">SHOW DETAILS</button>
       </div>
       <div class="anomations">
         <div class="scroll">
@@ -64,7 +137,8 @@
             <li>
               <img
                 src="./imgs/Bike/78fed57c78d430ab9d5c14a03c2f36e2-removebg-preview.png"
-                alt="" class="down"
+                alt=""
+                class="down"
               />
             </li>
             <li>
@@ -76,9 +150,9 @@
             <li>
               <img src="./imgs/Smash-Bros-Bowser-PNG-Image.webp" alt="" />
             </li>
-            <li> <img src="" alt=""></li>
-            <li> <img src="" alt=""></li>
-            <li> <img src="" alt=""></li>
+            <li><img src="" alt="" /></li>
+            <li><img src="" alt="" /></li>
+            <li><img src="" alt="" /></li>
             <li>
               <img
                 src="./imgs/Bike/44b04bd81ec7930b7aa0cfc5f93bddfb-removebg-preview.png"
@@ -94,7 +168,8 @@
             <li>
               <img
                 src="./imgs/Bike/78fed57c78d430ab9d5c14a03c2f36e2-removebg-preview.png"
-                alt="" class="down"
+                alt=""
+                class="down"
               />
             </li>
             <li>
@@ -106,9 +181,9 @@
             <li>
               <img src="./imgs/Smash-Bros-Bowser-PNG-Image.webp" alt="" />
             </li>
-            <li> <img src="" alt=""></li>
-            <li> <img src="" alt=""></li>
-            <li> <img src="" alt=""></li>
+            <li><img src="" alt="" /></li>
+            <li><img src="" alt="" /></li>
+            <li><img src="" alt="" /></li>
             <li>
               <img
                 src="./imgs/Bike/44b04bd81ec7930b7aa0cfc5f93bddfb-removebg-preview.png"
@@ -124,7 +199,8 @@
             <li>
               <img
                 src="./imgs/Bike/78fed57c78d430ab9d5c14a03c2f36e2-removebg-preview.png"
-                alt="" class="down"
+                alt=""
+                class="down"
               />
             </li>
             <li>
@@ -141,7 +217,12 @@
         <div class="mario-animation"></div>
       </div>
     </main>
-    <audio src="./sounds/Super Mario Bros. Theme Song.mp3" autoplay loop muted></audio>
+    <audio
+      src="./sounds/Super Mario Bros. Theme Song.mp3"
+      autoplay
+      loop
+      muted
+    ></audio>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
