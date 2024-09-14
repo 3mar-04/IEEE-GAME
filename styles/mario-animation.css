@@ -1,0 +1,64 @@
+.mario-animation , .scroll{ 
+    mask:linear-gradient(90deg ,transparent , white 25% , white 75% , transparent);
+    margin-left: 3rem;
+}
+
+.mario-animation {
+  background-image: url(../imgs/wp4021130.jpg);
+  background-size: cover;
+  width: 670px;
+  height: 50px;
+  position: relative;
+  top: 12rem;
+  left: 1rem;
+  mask:linear-gradient(90deg ,transparent , white 25% , white 75% , transparent );
+}
+
+
+.scroll{
+    width: 650px;
+    height: 160px;
+    position: relative;
+    top: 12rem;
+    left: 1rem;
+}
+
+.scroll ul li img{
+    max-width:110px;
+    margin: 0%;
+    padding: 0%;
+    transform: translateY(1.8rem);
+    user-select: none;
+    position: relative;
+    top: 2rem;  
+}
+
+.scroll ul li .down{
+    top: 2.5rem;
+}
+
+.scroll .linner{
+    list-style: none;
+    display: flex;
+    max-width: 650px;
+    gap: 2.5rem;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    animation: scroll 5s linear infinite;
+}
+
+.linner:hover{
+    animation-play-state: paused;
+}
+
+.linner img:hover{
+    transform: scale(1.11) translateY(-.5rem);
+    filter: drop-shadow( 0px 0px 15px var(--clr-dark-silver));
+    
+}
+
+@keyframes scroll{
+    to{
+        transform: translate(134%);
+    }
+}

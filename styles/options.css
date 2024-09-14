@@ -31,6 +31,7 @@
 
 .options h1 {
   font-size: 3.5rem;
+  margin-top: 2rem;
 }
 
 .options h2 {
@@ -47,7 +48,7 @@
 
 .options button{
     position: relative;
-    top: 4rem;
+    top: 6rem;
     left: 14rem;
     margin-top: 1rem;
     margin-right: 1.5rem;
@@ -66,19 +67,8 @@
 
 .options button:hover {
     color: var(--clr-light);
-    transform: scale(1.08);
+    transform: scale(1.08) translateY(-1rem);
     background-color: var(--clr-red-dark);
-  filter: drop-shadow(5px 5px 10     px var(--clr-silver));
-
+    filter: drop-shadow(5px 5px 15px var(--clr-silver));
   }
 
-
-  .gif{
-    position: relative;
-    top: 6.5rem;
-    left: 6.25rem;
-    width: 600px;
-    border-radius: 3rem;
-    opacity: 80%;
-    filter: drop-shadow(5px 5px 30px var(--clr-dark-silver));
-  }
