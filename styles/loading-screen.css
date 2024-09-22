@@ -53,6 +53,7 @@ nav button,
   }
 }
 
+
 /* options */
 .options h1 {
   animation: loading-top 0.6s linear;
@@ -128,6 +129,81 @@ nav button,
   }
 }
 
+.options-after h1 {
+  animation: loading-top-after 0.6s linear;
+}
+@keyframes loading-top-after {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 0%;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0rem);
+  }
+}
+
+.options-after h2 {
+  animation: loading-top-2-after 1s linear;
+}
+@keyframes loading-top-2-after {
+  0% {
+    opacity: 0%;
+  }
+
+  60% {
+    opacity: 0%;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0rem);
+  }
+}
+
+.options-after h3 {
+  animation: loading-top-3-after 1.4s linear;
+}
+
+@keyframes loading-top-3-after {
+  0% {
+    opacity: 0%;
+  }
+
+  70% {
+    opacity: 0%;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0rem);
+  }
+}
+
+.options-after button {
+  animation: loading-top-4-after 1.7s linear;
+}
+
+@keyframes loading-top-4-after {
+  0% {
+    opacity: 0%;
+  }
+
+  75% {
+    opacity: 0%;
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateY(0rem);
+  }
+}
+
+/* Scroll */
 .scroll,
 .mario-animation {
   animation: Animation-load 2s linear;
@@ -146,3 +222,5 @@ nav button,
     opacity: 100%;
   }
 }
+
+

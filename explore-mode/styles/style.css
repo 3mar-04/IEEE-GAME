@@ -1,0 +1,46 @@
+:root {
+  --clr-yellow: #fbbf24;
+  --clr-yellow-opacity: #fbbe24b9;
+  --clr-yellow-dark: #835f03;
+  --clr-red: #dc2626;
+  --clr-red-dark: #940b0bc7;
+  --clr-dark-red: #940b0b;
+  --clr-silver: #64748b;
+  --clr-silver-opacity: #64748be6;
+  --clr-dark-silver: #1f2937;
+  --clr-dark: #11151b;
+  --clr-dark-silver-opacity: #2c333d5e;
+  --clr-blue: #3b82f6;
+  --clr-light: #fffafa;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  line-height: calc(1em +0.5rem);
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

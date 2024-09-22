@@ -1,0 +1,11 @@
+.top-photo {
+  width: 100dvw;
+  height: 55dvh;
+  background: url(../imgs/mario-dead-sea.jpeg);
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  mask-image: linear-gradient(180deg, white 55%, transparent),
+    linear-gradient(90deg, transparent, white 15%, white 85%, transparent);
+  mask-composite: intersect;
+}

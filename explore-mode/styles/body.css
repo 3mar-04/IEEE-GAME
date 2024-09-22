@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--clr-dark-silver);
+    background-size: cover;
+    background-position: 50%;
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+}

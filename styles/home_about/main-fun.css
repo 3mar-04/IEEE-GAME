@@ -8,7 +8,19 @@
   background-color: var(--clr-silver-opacity);
   top: 100px;
   display: none;
+  overflow: hidden;
+  animation: height-main-btn .5s ease;
 }
+
+@keyframes height-main-btn{
+  0%{
+    height:0px;
+  }
+  100%{
+    height: 750px;
+  }
+}
+
 
 .right-options {
   width: 600px;
